@@ -23,8 +23,8 @@ PORT = 1700
 NTP = "pool.ntp.org"
 NTP_PERIOD_S = 3600
 
-WIFI_SSID = 'OnePlus9'
-WIFI_PASS = "sonoio!!"
+WIFI_SSID = 'xxxx'
+WIFI_PASS = "xxxx"
 
 
 # for EU868

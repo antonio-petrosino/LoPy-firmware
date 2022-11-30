@@ -43,7 +43,7 @@ function Decoder(bytes, port) {
   int32[0] = decoded.pressure3;
       
   return {
-	light: int16*10,
+	light: int16[0]*10,
 	pressure: int32[0]    
   };
 }
