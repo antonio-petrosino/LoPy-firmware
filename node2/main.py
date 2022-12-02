@@ -30,9 +30,9 @@ if py.read_product_id() != Pycoproc.USB_PID_PYSENSE:
 lora = LoRa(mode=LoRa.LORAWAN, region=LoRa.EU868)
 
 # create an OTA authentication params
-dev_eui = binascii.unhexlify('F008D1FFFECCDD68')
+dev_eui = binascii.unhexlify('xxxx')
 app_eui = binascii.unhexlify('0000000000000000')
-app_key = binascii.unhexlify('C660C6E0C1C98853D345F1145ACAD4A5')
+app_key = binascii.unhexlify('xxxx')
 
 # set the 3 default channels to the same frequency (must be before sending the OTAA join request)
 lora.add_channel(0, frequency=config.LORA_FREQUENCY, dr_min=0, dr_max=5)
